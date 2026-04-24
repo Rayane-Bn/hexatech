@@ -103,6 +103,7 @@ section{padding:100px 5%}
 /* PORTFOLIO */
 .portfolio{background:var(--offwhite)}
 .projects{display:grid;grid-template-columns:1fr 1fr;gap:24px;margin-top:60px}
+.projects .project-card:last-child{grid-column:1/-1}
 .project-card{background:white;border-radius:18px;overflow:hidden;border:1px solid var(--border);transition:transform .3s,box-shadow .3s}
 .project-card:hover{transform:translateY(-4px);box-shadow:0 20px 50px rgba(14,27,62,0.1)}
 .project-header{padding:36px 36px 24px;background:var(--navy);position:relative;overflow:hidden}
@@ -332,6 +333,34 @@ footer p{font-size:13px;color:rgba(255,255,255,0.3)}
           <div class="result-badge"><strong>99%</strong> disponibilité</div>
           <div class="result-badge"><strong>IA</strong> prédictive</div>
         </div>
+      </div>
+    </div>
+    <div class="project-card">
+      <div class="project-header" style="background:#1A3A5C">
+        <div style="display:flex;align-items:center;gap:14px;position:relative;z-index:2">
+          <div style="background:rgba(255,255,255,0.1);border:1px solid rgba(255,255,255,0.2);border-radius:10px;padding:8px 14px;font-family:'Syne',sans-serif;font-weight:800;font-size:15px;color:white;letter-spacing:1px">ESI FLOW</div>
+          <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="rgba(255,255,255,0.6)" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+        </div>
+        <div class="project-client" style="margin-top:10px">Plateforme de gestion des incidents · 2025</div>
+      </div>
+      <div class="project-body" style="display:grid;grid-template-columns:1fr 1fr 1fr;gap:24px;align-items:start">
+        <div>
+          <div style="font-size:11px;font-weight:600;letter-spacing:1.5px;color:var(--blue);text-transform:uppercase;margin-bottom:8px">Problème</div>
+          <p class="project-challenge" style="margin-bottom:0">Gestion inefficace des problèmes techniques avec peu de suivi et de communication entre les parties prenantes.</p>
+        </div>
+        <div>
+          <div style="font-size:11px;font-weight:600;letter-spacing:1.5px;color:var(--blue);text-transform:uppercase;margin-bottom:8px">Défi</div>
+          <p class="project-challenge" style="margin-bottom:0">Centraliser les incidents et assurer un suivi clair en temps réel pour toutes les équipes impliquées.</p>
+        </div>
+        <div>
+          <div style="font-size:11px;font-weight:600;letter-spacing:1.5px;color:var(--blue);text-transform:uppercase;margin-bottom:8px">Solution</div>
+          <p class="project-challenge" style="margin-bottom:0">Une plateforme web permettant de signaler, suivre et résoudre les problèmes techniques efficacement.</p>
+        </div>
+      </div>
+      <div style="padding:0 36px 28px;display:flex;gap:12px;flex-wrap:wrap">
+        <div class="result-badge">Signalement <strong>centralisé</strong></div>
+        <div class="result-badge">Suivi <strong>temps réel</strong></div>
+        <div class="result-badge"><strong>Résolution</strong> rapide</div>
       </div>
     </div>
   </div>
